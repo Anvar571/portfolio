@@ -13,8 +13,6 @@ html {
 }
 
 
-
-
 /* ====================== navbor styles ================== */
 .site-header {
     width: 1000px;
@@ -42,7 +40,9 @@ html {
     color: #162232;
     
 }
-
+.menu-icon {
+    display: none;
+}
 
 
 /* ============ home page styles ============== */
@@ -101,4 +101,7 @@ html {
 }
 .about-me:hover {
     color: #1e90ff;
+}
+.site-home_description {
+    width: 100%;
 }
