@@ -2,9 +2,9 @@ const router = require("express").Router();
 
 router.get("/", (req, res) => {
     try {
-        res.render("blogs")
+        res.render("skill")
     } catch (error) {
-        res.render("blogs", {error_message: error+""})
+        res.render("skill", {error_message: error+""})
     }
 } )
 
