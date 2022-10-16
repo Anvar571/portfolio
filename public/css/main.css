@@ -43,6 +43,10 @@ html {
 .menu-icon {
     display: none;
 }
+.navbor-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* ============ home page styles ============== */
@@ -115,4 +119,7 @@ html {
 /* site about ============== */
 .site-about {
     margin: 100px 0;
+}
+.nav-flex {
+    margin-left: 480px;
 }

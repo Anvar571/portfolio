@@ -1,7 +1,7 @@
 // variables
-const navborBtn = document.getElementById("mav-icon")
+const navborBtn = document.getElementById("nav-icon")
 const navbor = document.getElementById("navbor")
 
-navborBtn.addEventListener("click", () => {
+navbor.onclick = function () {
     navbor.classList.toggle("res-navbor-hid")
-})
+}

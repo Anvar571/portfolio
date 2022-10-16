@@ -1,11 +1,7 @@
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-    try {
-        res.render("skill")
-    } catch (error) {
-        res.render("skill", {error_message: error+""})
-    }
-} )
+    res.render("skill")
+})
 
 module.exports = router
