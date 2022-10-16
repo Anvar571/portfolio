@@ -41,11 +41,8 @@ html {
     
 }
 .menu-icon {
-    display: none;
-}
-.navbor-flex {
-    display: flex;
-    justify-content: space-between;
+    width: 60px;
+    border: none;
 }
 
 
@@ -121,5 +118,5 @@ html {
     margin: 100px 0;
 }
 .nav-flex {
-    margin-left: 480px;
+    margin-left: 380px;
 }

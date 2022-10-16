@@ -24,7 +24,7 @@
         top: 80px;
     }
     .menu-icon {
-        width: 35px;
+        width: 60px;
         display: inline-block;
     }
     .menu-icon:hover {
@@ -44,24 +44,20 @@
 
 @media only screen and (max-width: 580px) {
     .container {
-        width: 400px;
+        width: 530px;
     }
     .site-home_page {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .my-sociol_blogs {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
     }
     .site-discription {
         width: 550px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
         flex-direction: column;
     }
 }
