@@ -44,20 +44,42 @@
 
 @media only screen and (max-width: 580px) {
     .container {
-        width: 530px;
+        width: 390px;
+    }
+    .site-home {
+        max-width: 356px;
+        overflow: hidden;
+        margin: 40px 0;
+    }
+    .site-main {
+        width: 100%;
     }
     .site-home_page {
-        
+        width: 310px;
+    }
+    .site-home_image {
+        width: 100px;
+    }
+    .site-home_title {
+        font-size: 16px;
+    }
+    .site-home_h5 {
+        font-size: 16px;
+    }
+    .social_icons {
+        width: 25px;
+    }
+    .site-home_description {
+        /* width: 50%; */
+        font-size: 16px;
     }
     .my-sociol_blogs {
         display: flex;
         align-items: center;
         justify-content: start;
     }
-    .site-discription {
-        width: 550px;
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
+    .site-home-btns {
+        margin: 20px 0;
+        /* padding: 0; */
     }
 }
